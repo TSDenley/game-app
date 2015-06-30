@@ -1,0 +1,44 @@
+<head>
+	<title>Game App</title>
+</head>
+
+<body>
+	<button type="button" class="menu-toggle hidden-lg btn">Menu</button>
+
+	<div class="container-fluid main-container">
+		<div class="row">
+
+			<div class="col-xs-3 nav-col">
+				<div class="row">
+					<nav class="nav-container">
+						<ul class="nav nav-stacked">
+							<li><a href="#">Lorem</a></li>
+							<li><a href="#">Ipsum</a></li>
+							<li><a href="#">Ameit</a></li>
+						</ul>
+					</nav>
+				</div><!-- row -->
+			</div><!-- col -->
+
+			<div class="col-xs-12 col-lg-9">
+				<div class="row">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							{{#each games}}
+								<div class="swiper-slide game" id="{{_id}}">{{title}}</div>
+							{{/each}}
+						</div><!-- swiper-wrapper -->
+					</div><!-- swiper-container -->
+				</div><!-- row -->
+			</div><!-- col -->
+
+		</div><!-- row -->
+	</div><!-- container -->
+
+</body>
+
+
+<template name="gameDialog">
+	<h1 class="h1">{{title}}</h1>
+	<p class="summary">{{summary}}</p>
+</template>
