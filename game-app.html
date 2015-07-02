@@ -45,9 +45,13 @@
 
 <template name="gameDialog">
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row game-header">
 			<div class="col-sm-12">
-				<h1 class="h1">{{title}}</h1>
+				{{#if images.logo}}
+					<img class="logo" src="{{images.logo}}" alt="{{title}}">
+				{{else}}
+					<h1 class="h1">{{title}}</h1>
+				{{/if}}
 				<p class="summary">{{{summary}}}</p>
 			</div>
 		</div><!-- row -->

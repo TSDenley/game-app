@@ -65,6 +65,10 @@ body {
 	align-items: center;
 }
 
+img {
+	max-width: 100%;
+}
+
 
 /**
 * Swiper
@@ -82,10 +86,6 @@ body {
 	background: #fff;
 	height: 33.333333%;
 	background-size: cover;
-}
-
-.swiper-slide:nth-of-type(2n+1) {
-	background-color: #eee;
 }
 
 /**
@@ -146,6 +146,15 @@ body {
 .game-pop-up {
 	color: #fff;
 
+	.game-header {
+		text-align: center;
+
+		.logo {
+			max-height: 300px;
+			margin-bottom: 30px;
+		}
+	}
+
 	.modal-content {
 		border-radius: 0;
 		background-image: url(/Backdrop.jpg);
@@ -153,12 +162,10 @@ body {
 
 		.h1 {
 			font-weight: bold;
-			text-align: center;
 		}
 
 		.summary {
 			font-size: 18px;
-			text-align: center;
 
 			&::first-line {
 				font-weight: bold;

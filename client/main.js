@@ -10,7 +10,8 @@ var gameData = [
 		"_id": 1,
 		"title": "No Man Sky",
 		"images": {
-			"slide": "/slides/1.jpg"
+			"slide": "/slides/1.jpg",
+			"logo": "/logos/1.png"
 		},
 		"summary": "Whether a distant mountain or a planet hanging low on the horizon, you can go there. You can fly seamlessly from the surface of a planet to another, and every star in the sky is a sun that you can visit. Where you'll go and how fast you'll make your way through this universe is up to you. It's yours for the taking.",
 		"most_positive_reviews": [
@@ -29,7 +30,8 @@ var gameData = [
 		"_id": 2,
 		"title": "Minecraft",
 		"images": {
-			"slide": "/slides/2.png"
+			"slide": "/slides/2.png",
+			"logo": "/logos/2.png"
 		},
 		"summary": "Minecraft is a game about breaking and placing blocks. At first, people built structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things. It can also be about adventuring with friends or watching the sun rise over a blocky ocean. It’s pretty. Brave players battle terrible things in The Nether, which is more scary than pretty. You can also visit a land of mushrooms if it sounds more like your cup of tea.",
 		"most_positive_reviews": [
@@ -51,7 +53,8 @@ var gameData = [
 		"_id": 3,
 		"title": "Bioshock Infinite",
 		"images": {
-			"slide": "/slides/3.jpg"
+			"slide": "/slides/3.jpg",
+			"logo": "/logos/3.png"
 		},
 		"summary": "Set in 1912, players assume the role of former Pinkerton agent Booker DeWitt, sent to the flying city of Columbia on a rescue mission. His target? Elizabeth, imprisoned since childhood. During their daring escape, Booker and Elizabeth form a powerful bond -- one that lets Booker augment his own abilities with her world-altering control over the environment. Together, they fight from high-speed Sky-Lines, in the streets and houses of Columbia, on giant zeppelins, and in the clouds, all while learning to harness an expanding arsenal of weapons and abilities and immersing players in a story that is not only steeped in profound thrills and surprises",
 		"most_positive_reviews": [
@@ -73,7 +76,8 @@ var gameData = [
 		"_id": 4,
 		"title": "Just Cause 3",
 		"images": {
-			"slide": "/slides/4.png"
+			"slide": "/slides/4.png",
+			"logo": "/logos/4.png"
 		},
 		"summary": "Set in the sun-drenched Mediterranean island republic of Medici, a land crumbling under the ruthless rule of General Di Ravello, you take control of series’ hero Rico Rodriguez, a man on a mission to liberate his homeland and the people of Medici...by any means necessary. With over 400 square miles of complete freedom from sky to seabed and a huge arsenal of weaponry, gadgets and vehicles, prepare to unleash chaos in the most creative and explosive ways you can imagine.",
 		"most_positive_reviews": [
@@ -95,7 +99,8 @@ var gameData = [
 		"_id": 5,
 		"title": "Witcher 3",
 		"images": {
-			"slide": "/slides/5.jpg"
+			"slide": "/slides/5.jpg",
+			"logo": "/logos/5.png"
 		},
 		"summary": "With the Empire attacking the Kingdoms of the North and the Wild Hunt, a cavalcade of ghastly riders, breathing down your neck, the only way to survive is to fight back. As Geralt of Rivia, a master swordsman and monster hunter, leave none of your enemies standing. Explore a gigantic open world, slay beasts and decide the fates of whole communities with your actions.",
 		"most_positive_reviews": [
@@ -117,7 +122,8 @@ var gameData = [
 		"_id": 6,
 		"title": "Grand theft auto V",
 		"images": {
-			"slide": "/slides/6.jpg"
+			"slide": "/slides/6.jpg",
+			"logo": "/logos/6.png"
 		},
 		"summary": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
 		"most_positive_reviews": [
@@ -139,7 +145,8 @@ var gameData = [
 		"_id": 7,
 		"title": "Fez",
 		"images": {
-			"slide": "/slides/7.jpg"
+			"slide": "/slides/7.jpg",
+			"logo": "/logos/7.png"
 		},
 		"summary": "In FEZ, you play as Gomez, who is a 2D creature living in a 2D world. Or is he? When the existence of a mysterious 3rd dimension is revealed to him, Gomez is sent out on a journey that will take him to the very end of time and space. Use your ability to navigate 3D structures from 4 distinct classic 2D perspectives. Explore a serene and beautiful open-ended world full of secrets, puzzles and hidden treasures. Unearth the mysteries of the past and discover the truth about reality and perception.",
 		"most_positive_reviews": [
@@ -175,14 +182,14 @@ var gameData = [
 		"_id": 10,
 		"title": "New Super Mario Bros.",
 		"images": {
-			"slide": "/slides/10.jpg"
+			"slide": "/slides/11.jpg"
 		}
 	},
 	{
 		"_id": 11,
 		"title": "Fifa 15",
 		"images": {
-			"slide": "/slides/11.jpg"
+			"slide": "/slides/10.jpg"
 		}
 	},
 	{
