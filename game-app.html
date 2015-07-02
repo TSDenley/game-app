@@ -25,7 +25,12 @@
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							{{#each games}}
-								<div class="swiper-slide game" id="{{_id}}">{{title}}</div>
+								<div class="swiper-slide game v-center"
+									id="{{_id}}"
+									style="background-image:url({{images.slide}});"
+									>
+										{{#unless images.slide}}{{title}}{{/unless}}
+								</div>
 							{{/each}}
 						</div><!-- swiper-wrapper -->
 					</div><!-- swiper-container -->

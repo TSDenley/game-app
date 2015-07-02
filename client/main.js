@@ -9,6 +9,9 @@ var gameData = [
 	{
 		"_id": 1,
 		"title": "No Man Sky",
+		"images": {
+			"slide": "/slides/1.jpg"
+		},
 		"summary": "Whether a distant mountain or a planet hanging low on the horizon, you can go there. You can fly seamlessly from the surface of a planet to another, and every star in the sky is a sun that you can visit. Where you'll go and how fast you'll make your way through this universe is up to you. It's yours for the taking.",
 		"most_positive_reviews": [
 			"No words to describe it. Poetry. And from a four-person indie studio too. This has rocketed straight to the very top of my Most Wanted list.- Rock Paper Shotgun",
@@ -25,6 +28,9 @@ var gameData = [
 	{
 		"_id": 2,
 		"title": "Minecraft",
+		"images": {
+			"slide": "/slides/2.png"
+		},
 		"summary": "Minecraft is a game about breaking and placing blocks. At first, people built structures to protect against nocturnal monsters, but as the game grew players worked together to create wonderful, imaginative things. It can also be about adventuring with friends or watching the sun rise over a blocky ocean. It’s pretty. Brave players battle terrible things in The Nether, which is more scary than pretty. You can also visit a land of mushrooms if it sounds more like your cup of tea.",
 		"most_positive_reviews": [
 			"Meanwhile, Minecraft, with all its flaws and quirks, has already joined Super Mario Brothers, Wolfenstein 3D, and Tetris in the pantheon of games that prototyped an entire genre.- 1UP",
@@ -44,6 +50,9 @@ var gameData = [
 	{
 		"_id": 3,
 		"title": "Bioshock Infinite",
+		"images": {
+			"slide": "/slides/3.jpg"
+		},
 		"summary": "Set in 1912, players assume the role of former Pinkerton agent Booker DeWitt, sent to the flying city of Columbia on a rescue mission. His target? Elizabeth, imprisoned since childhood. During their daring escape, Booker and Elizabeth form a powerful bond -- one that lets Booker augment his own abilities with her world-altering control over the environment. Together, they fight from high-speed Sky-Lines, in the streets and houses of Columbia, on giant zeppelins, and in the clouds, all while learning to harness an expanding arsenal of weapons and abilities and immersing players in a story that is not only steeped in profound thrills and surprises",
 		"most_positive_reviews": [
 			"Dealing with themes like religion, racism, and xenophobia, Columbia is a richer and more nuanced setting than even Rapture, and the unveiling of the city’s culture is masterfully executed.",
@@ -63,6 +72,9 @@ var gameData = [
 	{
 		"_id": 4,
 		"title": "Just Cause 3",
+		"images": {
+			"slide": "/slides/4.png"
+		},
 		"summary": "Set in the sun-drenched Mediterranean island republic of Medici, a land crumbling under the ruthless rule of General Di Ravello, you take control of series’ hero Rico Rodriguez, a man on a mission to liberate his homeland and the people of Medici...by any means necessary. With over 400 square miles of complete freedom from sky to seabed and a huge arsenal of weaponry, gadgets and vehicles, prepare to unleash chaos in the most creative and explosive ways you can imagine.",
 		"most_positive_reviews": [
 			"Just Cause 3 sets a new standard in the sandbox genre, and will be difficult to top due to its incredible graphics, expansive world, and extremely fun gameplay.- My Gamer",
@@ -82,6 +94,9 @@ var gameData = [
 	{
 		"_id": 5,
 		"title": "Witcher 3",
+		"images": {
+			"slide": "/slides/5.jpg"
+		},
 		"summary": "With the Empire attacking the Kingdoms of the North and the Wild Hunt, a cavalcade of ghastly riders, breathing down your neck, the only way to survive is to fight back. As Geralt of Rivia, a master swordsman and monster hunter, leave none of your enemies standing. Explore a gigantic open world, slay beasts and decide the fates of whole communities with your actions.",
 		"most_positive_reviews": [
 			"Despite some evident flaws, The Witcher 3: Wild Hunt is a game you should be playing. It’s one of the few open-world RPG’s that manages to excel at not only giving you an expansive world to explore, but at also giving you plenty to do within that world.",
@@ -101,6 +116,9 @@ var gameData = [
 	{
 		"_id": 6,
 		"title": "Grand theft auto V",
+		"images": {
+			"slide": "/slides/6.jpg"
+		},
 		"summary": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
 		"most_positive_reviews": [
 			"The already featured-packed game now comes with further improved visuals, a powerful editor and new meaning to the first person mode thanks to the mouse/keyboard combo. Excellence at its finest.",
@@ -120,6 +138,9 @@ var gameData = [
 	{
 		"_id": 7,
 		"title": "Fez",
+		"images": {
+			"slide": "/slides/7.jpg"
+		},
 		"summary": "In FEZ, you play as Gomez, who is a 2D creature living in a 2D world. Or is he? When the existence of a mysterious 3rd dimension is revealed to him, Gomez is sent out on a journey that will take him to the very end of time and space. Use your ability to navigate 3D structures from 4 distinct classic 2D perspectives. Explore a serene and beautiful open-ended world full of secrets, puzzles and hidden treasures. Unearth the mysteries of the past and discover the truth about reality and perception.",
 		"most_positive_reviews": [
 			"There’s a touch of brilliance to this game. You feel the incentive to play on, because solving a puzzle unlocks a new door and you enter into another uncharted and mysterious world. We love the music and the retro-style, pixelated art. Fez harks back to 2D classics, so if you’re anything like me, nostalgia should kick in almost instantly.",
@@ -138,40 +159,59 @@ var gameData = [
 	},
 	{
 		"_id": 8,
-		"title": "Assassins Creed Black Flag "
+		"title": "Assassins Creed Black Flag ",
+		"images": {
+			"slide": "/slides/8.jpg"
+		}
 	},
 	{
 		"_id": 9,
-		"title": "Firewatch"
+		"title": "Firewatch",
+		"images": {
+			"slide": "/slides/9.jpg"
+		}
 	},
 	{
 		"_id": 10,
-		"title": "New Super Mario Bros."
-
+		"title": "New Super Mario Bros.",
+		"images": {
+			"slide": "/slides/10.jpg"
+		}
 	},
 	{
 		"_id": 11,
-		"title": "Fifa 15"
-
+		"title": "Fifa 15",
+		"images": {
+			"slide": "/slides/11.jpg"
+		}
 	},
 	{
 		"_id": 12,
-		"title": "Terraria"
-
+		"title": "Terraria",
+		"images": {
+			"slide": "/slides/12.jpeg"
+		}
 	},
 	{
 		"_id": 13,
-		"title": "Fallout 4"
-
+		"title": "Fallout 4",
+		"images": {
+			"slide": "/slides/13.png"
+		}
 	},
 	{
 		"_id": 14,
-		"title": "Portal 2"
-
+		"title": "Portal 2",
+		"images": {
+			"slide": "/slides/14.jpg"
+		}
 	},
 	{
 		"_id": 15,
-		"title": "Half Life 2"
+		"title": "Half Life 2",
+		"images": {
+			"slide": "/slides/15.JPG"
+		}
 	}
 ];
 
