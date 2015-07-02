@@ -36,13 +36,32 @@ var gameData = [
 		],
 		"info": "Minecraft is a sandbox independent video game originally created by Swedish programmer Markus “Notch” Persson and later developed and published by the Swedish company Mojang.",
 		"release_date": "May 17, 2009",
-		"designers": "Markus Persson, Jens Bergensten",
+		"designer": ["Markus Persson", "Jens Bergensten"],
 		"awards": ["Kids’ Choice Award", "Best Downloadable Game", "Rock, Paper, Shotgun Game of the year", "Best Debut Game and Most Innovative game."],
 		"platforms": ["Android", "iOS", "PlayStation 3", "PlayStation 4", "PlayStation Vita", "Xbox 360", "Xbox One", "PC", "Mac", "Linux"],
 		 "clip": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MmB9b5njVbA\" frameborder=\"0\" allowfullscreen></iframe>"
 	},
 	{
 		"_id": 3,
+		"title": "Bioshock Infinite",
+		"summary": "Set in 1912, players assume the role of former Pinkerton agent Booker DeWitt, sent to the flying city of Columbia on a rescue mission. His target? Elizabeth, imprisoned since childhood. During their daring escape, Booker and Elizabeth form a powerful bond -- one that lets Booker augment his own abilities with her world-altering control over the environment. Together, they fight from high-speed Sky-Lines, in the streets and houses of Columbia, on giant zeppelins, and in the clouds, all while learning to harness an expanding arsenal of weapons and abilities and immersing players in a story that is not only steeped in profound thrills and surprises",
+		"most_positive_reviews": [
+			"Dealing with themes like religion, racism, and xenophobia, Columbia is a richer and more nuanced setting than even Rapture, and the unveiling of the city’s culture is masterfully executed.",
+			"The PC version, as run on mid-range hardware, makes no such visual compromises, with gorgeous high-resolution textures, detailed faces, and smooth performance...A brilliant shooter that nudges the entire genre forward with innovations in both storytelling and gameplay.",
+		],
+		"most_critical_reviews": [
+			"Mid level combat ,mid level scenario,completely uninteresting rail combat,vigors.A modern classic of modern big game industry's click and watch the movie, style game.",
+			"They've invested a whooping $100 million in 'marketing', look it up. This is written off against tax. Nevermind the product, we have to keep the ball rolling. Because from an artistical and a technical point of view, this is nothing but child-oriented junk."
+		],
+		"Info": "BioShock Infinite is a first-person shooter video game developed by Irrational Games and published by 2K Games. ",
+		"release_date": "March 26, 2013",
+		"designer": ["2K Games"],
+		"awards": ["Best Song", "Character of the year", "Best shooter", "Best original score."],
+		"platforms": [ "Playstation 3", "PC", "Xbox 360", "Mac", "Linux"],
+		"clip": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/J_gEzOZKyE4\" frameborder=\"0\" allowfullscreen></iframe>"
+	},
+	{
+		"_id": 4,
 		"title": "Just Cause 3",
 		"summary": "Set in the sun-drenched Mediterranean island republic of Medici, a land crumbling under the ruthless rule of General Di Ravello, you take control of series’ hero Rico Rodriguez, a man on a mission to liberate his homeland and the people of Medici...by any means necessary. With over 400 square miles of complete freedom from sky to seabed and a huge arsenal of weaponry, gadgets and vehicles, prepare to unleash chaos in the most creative and explosive ways you can imagine.",
 		"most_positive_reviews": [
@@ -61,7 +80,7 @@ var gameData = [
 		 "clip": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-x1q7wY0koE\" frameborder=\"0\" allowfullscreen></iframe>"
 	},
 	{
-		"_id": 4,
+		"_id": 5,
 		"title": "Witcher 3",
 		"summary": "With the Empire attacking the Kingdoms of the North and the Wild Hunt, a cavalcade of ghastly riders, breathing down your neck, the only way to survive is to fight back. As Geralt of Rivia, a master swordsman and monster hunter, leave none of your enemies standing. Explore a gigantic open world, slay beasts and decide the fates of whole communities with your actions.",
 		"most_positive_reviews": [
@@ -75,12 +94,12 @@ var gameData = [
 		"info": "N/A",
 		"release_date": "May 19, 2015",
 		"designer": "CD Projekt RED",
-		"awards": "The Game Award for Most Anticipated Game, Best role-playing game, People's choice award and Most Wanted Award.",
+		"awards": ["The Game Award for Most Anticipated Game", "Best role-playing game", "People's choice award and Most Wanted Award."],
 		"platforms": ["PlayStation 4", "Xbox One", "Microsoft Windows"],
 		"clip": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/nYwe_WHARdc\" frameborder=\"0\" allowfullscreen></iframe>",
 	},
 	{
-		"_id": 5,
+		"_id": 6,
 		"title": "Grand theft auto V",
 		"summary": "The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.",
 		"most_positive_reviews": [
@@ -93,13 +112,13 @@ var gameData = [
 		],
 		"info": "",
 		"release_date": "September 17, 2013",
-		"design": "Rockstar Games, Rockstar North",
+		"designer": "Rockstar Games, Rockstar North",
 		"awards": ["Game of the year", "Best soundtrack", "Best british game", "Best multiplayer game", "best game design", "most anticipated game"],
 		"platforms": ["PlayStation 4", "Playstation 3", "Xbox 360", "Xbox One", "PC"],
 		 "clip": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qoytS3930aY\" frameborder=\"0\" allowfullscreen></iframe>",
 	},
 	{
-		"_id": 6,
+		"_id": 7,
 		"title": "Fez",
 		"summary": "In FEZ, you play as Gomez, who is a 2D creature living in a 2D world. Or is he? When the existence of a mysterious 3rd dimension is revealed to him, Gomez is sent out on a journey that will take him to the very end of time and space. Use your ability to navigate 3D structures from 4 distinct classic 2D perspectives. Explore a serene and beautiful open-ended world full of secrets, puzzles and hidden treasures. Unearth the mysteries of the past and discover the truth about reality and perception.",
 		"most_positive_reviews": [
@@ -116,6 +135,43 @@ var gameData = [
 		"platforms": ["Xbox 360", "PlayStation 4", "PlayStation 3", "PlayStation Vita", "Microsoft Windows","Linux", "Mac"],
 		"awards": ["Nominee for VGX Award for Best Independent Game", "nominee for most innovative game"],
 		 "clip": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tfpKTclOnfI\" frameborder=\"0\" allowfullscreen></iframe>"
+	},
+	{
+		"_id": 8,
+		"title": "Assassins Creed Black Flag "
+	},
+	{
+		"_id": 9,
+		"title": "Firewatch"
+	},
+	{
+		"_id": 10,
+		"title": "New Super Mario Bros."
+
+	},
+	{
+		"_id": 11,
+		"title": "Fifa 15"
+
+	},
+	{
+		"_id": 12,
+		"title": "Terraria"
+
+	},
+	{
+		"_id": 13,
+		"title": "Fallout 4"
+
+	},
+	{
+		"_id": 14,
+		"title": "Portal 2"
+
+	},
+	{
+		"_id": 15,
+		"title": "Half Life 2"
 	}
 ];
 
@@ -129,13 +185,28 @@ Template.body.helpers({
 });
 
 /**
+* Game dialog helpers
+*/
+Template.gameDialog.helpers({
+	joinArray: function (ary) {
+		if( Object.prototype.toString.call( ary ) === '[object Array]' ) {
+			return ary.join(', ');
+		};
+
+		return ary;
+	}
+});
+
+/**
 * Body events
 */
 Template.body.events({
 	'click .game': function () {
 		bootbox.dialog({
 			message: '<div id="dialog_body"></div>',
-			onEscape: true
+			onEscape: true,
+			size: 'large',
+			className: 'game-pop-up'
 		});
 
 		Blaze.renderWithData(Template.gameDialog, this, $("#dialog_body")[0]);

@@ -116,8 +116,69 @@ body {
 .nav-container {
 	background-color: @gray-dark;
 	color: @gray-lighter;
-}
 
 	.nav {
 		padding-top: 60px;
+
+		a {
+			color: #fff;
+
+			&:hover {
+				color: #333;
+			}
+		}
 	}
+
+	.glyphicon {
+		font-size: 28px;
+		top: 8px;
+	}
+}
+
+
+
+/**
+* Game Dialog
+*/
+.game-pop-up {
+	color: #fff;
+
+	.modal-content {
+		border-radius: 0;
+		background-image: url(/Backdrop.png);
+		background-size: cover;
+
+		.h1 {
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.summary {
+			font-size: 18px;
+			text-align: center;
+
+			&::first-line {
+				font-weight: bold;
+				font-style: italic;
+			}
+		}
+
+		.h2 {
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+		blockquote {
+			font-size: 16px;
+			font-style: italic;
+			border: none;
+			padding: 0;
+		}
+	}
+}
+
+.clip {
+	iframe {
+		max-width: 100%;
+	}
+}
