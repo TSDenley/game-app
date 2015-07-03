@@ -265,12 +265,58 @@ Template.body.events({
 * On DOM ready
 */
 jQuery(function($) {
+	var tbs = {
+		/*
+			xs = < 768
+			sm = > 768 & < 992
+			md = > 992 & < 1200
+			lg = > 1200
+		*/
+		sm: 768,
+		md: 992,
+		lg: 1200
+	};
+
 	/**
 	* Swiper
 	*/
 	var swiper = new Swiper('.swiper-container', {
-		slidesPerView: 3,
-		slidesPerColumn: 3,
+		// freeMode: true,
+		// freeModeSticky: true,
+		// slidesPerView: 3,
+		// slidesPerColumn: 3
+	});
+
+	console.log('Init params: ', swiper.params);
+
+	var swiperResize = function () {
+		var w_width = $(window).width();
+
+		if ( w_width >= tbs.lg ) {
+			swiper.params.slidesPerView = 3;
+			swiper.params.slidesPerColumn = 3;
+		} else if ( w_width > tbs.md && w_width < tbs.lg ) {
+			swiper.params.slidesPerView = 2;
+			swiper.params.slidesPerColumn = 3;
+		} else if ( w_width > tbs.sm && w_width < tbs.md ) {
+			swiper.params.slidesPerView = 2;
+			swiper.params.slidesPerColumn = 3;
+		} else {
+			swiper.params.slidesPerView = 1;
+			swiper.params.slidesPerColumn = 2;
+		};
+
+		swiper.update(true);
+		// swiper.updateSlidesSize();
+		// swiper.onResize()
+
+		console.log('View: ', swiper.params.slidesPerView, 'Col: ', swiper.params.slidesPerColumn);
+	};
+
+	swiperResize();
+
+	$(window).on('resize', function() {
+		swiperResize();
 	});
 
 	/**
