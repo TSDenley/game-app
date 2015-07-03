@@ -268,9 +268,9 @@ jQuery(function($) {
 	var tbs = {
 		/*
 			xs = < 768
-			sm = > 768 & < 992
-			md = > 992 & < 1200
-			lg = > 1200
+			sm = >= 768 & < 992
+			md = >= 992 & < 1200
+			lg = >= 1200
 		*/
 		sm: 768,
 		md: 992,
@@ -291,11 +291,11 @@ jQuery(function($) {
 		if ( w_width >= tbs.lg ) {
 			swiper.params.slidesPerView = 3;
 			swiper.params.slidesPerColumn = 3;
-		} else if ( w_width > tbs.md && w_width < tbs.lg ) {
+		} else if ( w_width >= tbs.md && w_width < tbs.lg ) {
 			swiper.params.slidesPerView = 2;
 			swiper.params.slidesPerColumn = 3;
-		} else if ( w_width > tbs.sm && w_width < tbs.md ) {
-			swiper.params.slidesPerView = 2;
+		} else if ( w_width >= tbs.sm && w_width < tbs.md ) {
+			swiper.params.slidesPerView = 1;
 			swiper.params.slidesPerColumn = 3;
 		} else {
 			swiper.params.slidesPerView = 1;
