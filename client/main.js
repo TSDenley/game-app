@@ -317,4 +317,19 @@ jQuery(function($) {
 	$('.menu-toggle').on('click', function() {
 		$('.nav-col').toggleClass('nav-open');
 	});
+
+	/**
+	* Start screen
+	*/
+	var $start = $('#start');
+
+	$start.on('click', function() {
+		// add animation class
+		$start.addClass('out');
+
+		// remove element when animation is complete
+		setTimeout(function () {
+			$start.remove();
+		}, 200);
+	});
 });
