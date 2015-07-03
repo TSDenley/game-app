@@ -281,13 +281,9 @@ jQuery(function($) {
 	* Swiper
 	*/
 	var swiper = new Swiper('.swiper-container', {
-		// freeMode: true,
-		// freeModeSticky: true,
-		// slidesPerView: 3,
-		// slidesPerColumn: 3
+		slidesPerView: 'auto',
+		slidesPerColumn: 3
 	});
-
-	console.log('Init params: ', swiper.params);
 
 	var swiperResize = function () {
 		var w_width = $(window).width();
@@ -306,11 +302,7 @@ jQuery(function($) {
 			swiper.params.slidesPerColumn = 2;
 		};
 
-		swiper.update(true);
-		// swiper.updateSlidesSize();
-		// swiper.onResize()
-
-		console.log('View: ', swiper.params.slidesPerView, 'Col: ', swiper.params.slidesPerColumn);
+		swiper.update();
 	};
 
 	swiperResize();
